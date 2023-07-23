@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #141313;
+    transition: all .4s;
+}
+
+.navbar a:hover{
+    scale: 1.05;
+    cursor: pointer;
+    opacity: .9;
+}
