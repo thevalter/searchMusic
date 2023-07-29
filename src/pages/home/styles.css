@@ -1,14 +1,12 @@
-.info {
-    width: 100%;
-    padding: 2rem 4rem;
+.main{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
-    gap: 4rem;
 }
 
-.info .search-field{
+
+.search-field{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -16,13 +14,10 @@
     margin: auto;
     background-color: white;
     border-radius: .7rem;
-    box-shadow: -5px 8px 17px -4px rgba(51, 50, 50, 0.75);
-  -webkit-box-shadow: -5px 8px 17px -4px rgba(51, 50, 50, 0.75);
-  -moz-box-shadow: -5px 8px 17px -4px rgba(51, 50, 50, 0.75);
 }
 
-.info div input {
-    padding: 1rem .5rem;
+.search-field input {
+    padding: .5rem .5rem;
     font-size: 1.5rem;
     color: black;
     background-color: #f0eaea;
@@ -30,23 +25,36 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.info div input:focus {
+.search-field input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
-.info div svg {
+.search-field svg {
     width: 2rem;
     height: 2rem;
     font-size: 2rem;
     cursor: pointer;
 }
 
-.content{
-    font-size: 1.2rem;
+.music-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
-.content a{
-    text-decoration: none;
-    color: black;
+.music-result img {
+    max-height: 80vh;
+    max-width: 90%;
+}
+
+.music-result div{
+    width: 90%;
+}
+
+.content{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
