@@ -3,6 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #121212;
+    padding: 2rem 0;
+    min-height: 100vh;
 }
 
 
@@ -10,7 +13,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
     margin: auto;
     background-color: white;
     border-radius: .7rem;
@@ -45,16 +48,40 @@
     margin-top: 2rem;
 }
 
+.music-result h1{
+    color: #f0eaea;
+}
+
 .music-result img {
     max-height: 80vh;
     max-width: 90%;
+    border-radius: 4px;
+}
+
+.music-result audio{
+    min-width: 40%;
 }
 
 .music-result div{
     width: 90%;
+    color: #f0eaea;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.music-result div a{
+    text-decoration: none;
+    color: #f0eaea;
 }
 
 .content{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    color: #f0eaea;
+}
+
+.content a{
+    text-decoration: none;
+    color: #f0eaea;
 }
